@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import LuxuryCard from './components/LuxuryCard';
 import MouseStars from './components/MouseStars';
-import Balloons from './components/Balloons';
+
 import BirthdayCake from './components/BirthdayCake';
 import GalleryAndForm from './components/GalleryAndForm';
 
@@ -20,7 +20,7 @@ function App() {
       {isCardOpen && (
         <main className="relative min-h-screen pt-16 pb-6 flex flex-col items-center gap-12">
           <MouseStars />
-          <Balloons />
+         
           
           {/* --- HEADER AREA --- */}
           <div className="text-center w-full relative z-20 px-4">
