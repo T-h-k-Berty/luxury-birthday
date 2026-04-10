@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* මේක අනිවාර්යයෙන්ම තියෙන්න ඕනි theme colors වැඩ කරන්න */
+@theme {
+  --color-gold-500: #d4af37;
+  --color-gold-300: #f3e5ab;
+  --color-dark-900: #0a0a0a;
+}
+
+body {
+  background-color: var(--color-dark-900);
+  color: white;
+  overflow-x: hidden;
+}
